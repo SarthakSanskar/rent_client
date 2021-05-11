@@ -1,0 +1,33 @@
+/* html, body{
+  height: 100%;
+} */
+  .heading{
+  font-size: 4em;
+  font-weight: bold ;
+  color: darkslategray;
+  font-family: 'Archivo Black';
+  }
+
+/* body{
+  font-family: Helvetica Neue;
+} */
+
+.nehal{
+  height: 35%;
+  width: fit-content;
+  border: 5px solid #BED8D4;
+  border-radius: 20%;
+  margin-top: 1em;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F7F9F9;
+  display: flex;
+  padding: 45px;
+}
+
+button{
+    justify-content: center;
+    align-items: center;;
+    margin: 2em;
+  }

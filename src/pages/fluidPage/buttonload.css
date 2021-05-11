@@ -1,0 +1,86 @@
+body {
+    background: #2d2d37;
+  }
+  .ngmc {
+    /* border: 1px solid #FF0000; */
+    display: inline-block;
+    height: 47px;
+    margin-bottom: 0%;
+    overflow: hidden;
+    position: relative;
+    width: 45px;
+}
+  p {
+    color: white;
+    text-decoration: none;
+  }
+  .arrow {
+    text-align: center;
+    font-size: xx-large;
+    margin: 1% 0;
+    
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    margin-bottom: 7px;
+  }
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+ body {
+     font-family: 'Roboto';
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .center {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .center h1 {
+     user-select: none;
+     font-size: 100px;
+     color: white;
+     background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+     background-size: 600vw 600vw;
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     animation: slide 10s linear infinite forwards;
+ }
+ 
+ @keyframes slide {
+     0% {
+         background-position-x: 0%;
+     }
+     100% {
+         background-position-x: 600vw;
+     }
+ }
